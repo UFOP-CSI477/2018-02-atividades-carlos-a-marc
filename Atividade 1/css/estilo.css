@@ -1,0 +1,142 @@
+/*
+GERAL
+*/
+body {
+	font-family: "Opens Sans", Helvetica, Arial, sans-serif;
+	color: #4d4d4d;
+	background-color: #F4F4F4;
+}
+
+h1, h2 {
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+/*
+Navegação
+*/
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #4d4d4d;
+}
+
+nav > a {
+	color: #f1f1f1;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 28px;
+	margin-top: 25px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-top: 50px;
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a {
+	color: #f1f1f1;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+}
+
+/*
+Cabeçalho
+*/
+header {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*
+Formulário
+*/
+#formulario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 30px 20px;
+	width: 100%;
+}
+
+#formulario form {
+	width: 100%
+}
+
+#formulario form input[type=text] {
+	width: 400px;
+	padding: 15px 10px;
+	margin-top: 10px;
+}
+
+#formulario form input[type=submit] {
+	width: 425px;
+	padding: 15px 10px;
+	margin-top: 10px;
+	background-color: #4296BA;
+	color: #f1f1f1;
+	font-weight: 700;
+	border-style: none;
+	cursor: pointer;
+}
+
+/*
+Lista de usuarios
+*/
+#lista {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#lista table {
+	width: 100%;
+	background-color: #ffffff;
+	font-weight: 300;
+	color: #b9b9b9;
+	border-collapse: collapse;
+	border-left: 1px solid #b9b9b9;
+	border-right: 1px solid #b9b9b9;
+	border-top: 0.50px solid #d8d7d7;
+	border-radius: 10px;
+}
+
+#lista table th {
+	color: #b9b9b9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	border-bottom: 2px solid #b9b9b9;
+	height: 20px;
+	text-align: left;
+
+}
+
+#lista table td {
+	height: 30px;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#lista table tr:hover {
+	cursor: pointer;
+}
