@@ -1,0 +1,61 @@
+
+
+
+.product-0507{
+float: right;
+margin-bottom: 3rem;
+}
+.product-0507:last-child{
+margin-left: 0;
+}
+.product-0507 .card-title{
+height: 2rem;
+overflow-y: hidden;
+}
+.product-0507 .card-body{
+height: 3rem;
+overflow-y: hidden;
+}
+.product-0507 .price{
+color: #129812;
+font-family: IRANSans-bold;
+}
+
+
+
+.flag{
+padding-top: 0.6rem;
+position: absolute;
+top:0;
+right:0.3rem;
+width:20px;
+height:38px;
+color: #fff;
+font-size:0.7rem;
+}
+.flag-green{
+background: url("http://www.mihanmedia.ir/userfile/flag-green.png") no-repeat;
+font-size:0.5rem;
+}
+.flag-yellow{
+background: url("http://www.mihanmedia.ir/userfile/flag-yellow.png") no-repeat;
+right:2rem !important;
+}
+.flag span{
+display: block;
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
