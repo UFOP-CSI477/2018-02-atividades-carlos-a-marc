@@ -1,17 +1,5 @@
 
 
-
-.product-0507{
-float: right;
-margin-bottom: 3rem;
-}
-.product-0507:last-child{
-margin-left: 0;
-}
-.product-0507 .card-title{
-height: 2rem;
-overflow-y: hidden;
-}
 .produto .card-body{
 height: 3rem;
 overflow-y: hidden;
