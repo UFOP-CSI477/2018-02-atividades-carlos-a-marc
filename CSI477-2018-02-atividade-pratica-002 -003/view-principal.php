@@ -50,7 +50,7 @@
                 <?php 
                     while($tupla = $produtos->fetch()) {
                         echo "<div class='col-md-3'>";
-                           echo "<div class='product-0507'>";
+                           echo "<div class='produto'>";
                                echo "<div class='card border-0'>";
                                    echo "<div class='card-img'>";
                                       echo '<img src="' . $tupla["imagem"] . '" class="img-fluid" width="120" height="120" >';    // Imagem
@@ -64,7 +64,7 @@
                                        <input type="hidden" name="imagem" value="'. $tupla["imagem"] .'" />
                                        <input type="hidden" name="nome" value="'. $tupla["Nome"] .'" />
                                        <input type="hidden" name="preco" value="'. $tupla["preco"] .'" />
-                                       <input type="submit" name="add class="btn btn-outline-primary" value="Adicionar" />
+                                       <button type="submit" name="add class="btn btn-outline-primary">Adicionar</button>
                                    </form>';
                                   // echo '<a class="btn btn-outline-primary" href="carrinho.php?id=' . $tupla['id'] . '">Adicionar</a>';
 

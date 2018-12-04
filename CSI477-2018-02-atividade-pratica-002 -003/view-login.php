@@ -14,12 +14,10 @@
 
 		<div class="container">
 			<form class="form-signin" action="login.php" method="post">
-				<h1 class="text-muted mb-4">PetStyle</h1>
-			    <label for="inputEmail" class="sr-only">Email</label>
-			    <input type="email" id="inputEmail" class="form-control" placeholder="Email" name="email"required autofocus>
-			    <label for="inputPassword" class="sr-only">Senha</label>
-			    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" name="senha" required>
-			    <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+				<h1 class="text-muted mb-4">PetStyle</h1>	    
+			    <input type="email" class="form-control" placeholder="Email" name="email" required autofocus>
+			    <input type="password" class="form-control" placeholder="Senha" name="senha" required>
+			    <button class="btn btn-lg btn-outline-primary" type="submit">Entrar</button>
 		    </form>
 		</div>
 
